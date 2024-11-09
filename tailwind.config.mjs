@@ -2,7 +2,14 @@
 export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
-		extend: {},
+		extend: {
+			fontFamily: {
+				rubik: ['Rubik', 'sans-serif'],
+			},
+			colors: {
+				'primary': '#0891B2',
+			},
+		},
 	},
 	plugins: [],
 }

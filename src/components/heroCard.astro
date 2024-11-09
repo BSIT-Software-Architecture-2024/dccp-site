@@ -1,12 +1,16 @@
-<section class="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gradient-to-r from-blue-600 to-indigo-600">
-    <div class="container mx-auto px-4 md:px-6">
-        <div class="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
-            <div class="flex flex-col justify-center space-y-4 text-white">
+---
+import Menu from "./Menu.astro";
+---
+<section class=" w-full h-[900px] bg-gradient-to-r from-white to-indigo-600">
+    <Menu />
+    <div class=" container mx-auto px-4 md:px-6">
+        <div class="grid gap-6 grid-cols-1 md:grid-cols-2">
+            <div class="flex flex-col mt-52 justify-center space-y-4 text-gray-700">
                 <div class="space-y-2">
-                    <h1 class="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+                    <h1 class="font-rubik font-bold text-3xl tracking-tighter sm:text-5xl xl:text-6xl/none">
                         PIONEERING IN IT EDUCATION SINCE 1974
                     </h1>
-                    <p class="max-w-[600px] text-gray-200 md:text-xl">
+                    <p class="max-w-[600px] text-gray-600 md:text-xl">
                         Data Center College of the Philippines Baguio City - a haven for knowledge-seekers nestled in the chilly mountains of Baguio City!
                     </p>
                 </div>
@@ -21,10 +25,10 @@
             </div>
             <img
                 alt="DCCP Baguio Campus"
-                class="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center"
-                height="550"
-                src="https://placehold.co/550x550"
-                width="550"
+                class="mx-auto mt-4 overflow-hidden rounded-2xl"
+
+                src="https://placehold.co/800x800"
+
             />
         </div>
     </div>
