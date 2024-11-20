@@ -1,33 +1,29 @@
 ---
 import { Icon } from 'astro-icon/components'
 ---
-<header class="menu-header font-h sticky top-0 p-2 z-50 w-full bg-white/95 dark:bg-slate-900 dark:text-slate-50 backdrop-blur supports-[backdrop-filter]:bg-white/90">
+<header class="fixed top-0 left-0 right-0 font-h p-2 z-50 bg-white bg-opacity-75 backdrop-blur-sm">
     <div class="container mx-auto flex h-16 items-center px-4">
         <a href="/" class="flex items-center space-x-2 p-3">
             <!-- <img src="/images/dccp-logo.png" alt="DCCP Logo" class="h-14 w-auto" /> -->
-            <img src="https://png.pngtree.com/png-vector/20220818/ourmid/pngtree-geometric-logo-with-abstract-w-for-tech-industry-branding-vector-png-image_38674124.png" alt="DCCP Logo" class="h-14 w-auto" />
+            <img src="/images/dccp-logo.png" alt="DCCP Logo" class="h-14 w-auto" />
         </a>
        
-        <div class="flex items-center ml-auto">
-            <nav class="hidden md:flex items-center space-x-8">
-                <a href="/academics" class="text-sm font-medium transition-colors hover:text-blue-700 dark:hover:text-blue-400 flex flex-col text-center align-center mx-1">
-                    <i class="fi fi-rr-scroll-document-story text-2xl text-blue-800 dark:text-blue-100"></i>
-                    <span class="text-xs">Academics</span>
+        <div class="flex-1 flex justify-center">
+            <nav class="hidden md:flex items-center gap-12">
+                <a href="/academics" class="relative group">
+                    <span class="text-lg font-medium transition-colors hover:text-blue-700">Academics</span>
+                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-700 transition-all group-hover:w-full"></span>
                 </a>
-
-                <a href="/about" class="text-sm font-medium transition-colors hover:text-blue-700 dark:hover:text-blue-400 flex flex-col text-center align-center mx-1">
-                    <i class="fi fi-rr-school text-2xl text-blue-800 dark:text-blue-100"></i>
-                    <span class="text-xs">About</span>
+        
+                <a href="/about" class="relative group">
+                    <span class="text-lg font-medium transition-colors hover:text-blue-700">About</span>
+                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-700 transition-all group-hover:w-full"></span>
                 </a>
-
-                
-              
-                <a href="https://dccp-portal-v1-beta.vercel.app" class="text-sm font-medium transition-colors hover:text-blue-700 dark:hover:text-blue-400 flex flex-col text-center align-center mx-1">
-                    <i class="fi fi-rr-student text-2xl text-blue-800 dark:text-blue-100"></i>
-                    <span class="text-xs">Portal</span>
+        
+                <a href="https://dccp-portal-v1-beta.vercel.app" class="relative group">
+                    <span class="text-lg font-medium transition-colors hover:text-blue-700">Portal</span>
+                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-700 transition-all group-hover:w-full"></span>
                 </a>
-
-               
             </nav>
             
             <button class="inline-flex items-center justify-center rounded-md text-sm font-medium border border-input bg-background hover:bg-accent h-10 w-10 md:hidden">

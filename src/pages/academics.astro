@@ -1,1 +1,301 @@
-<h1>Academics Page</h1>
+---
+import Layout from "../layouts/Layout.astro";
+import Menu from "../components/Menu.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<Layout title="Academics - Data Center College of the Philippines">
+    <Menu />
+    <main class="flex-1">
+        <!-- Hero Section -->
+        <section class="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-blue-300 via-blue-50 to-white">
+            <div class="container mx-auto px-4 md:px-6">
+                <div class="flex flex-col items-center space-y-4 text-center">
+                    <h1 class="text-3xl font-bold tracking-tighter sm:text-5xl text-slate-800">Academic Excellence</h1>
+                    <p class="max-w-[900px] text-slate-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                        Discover our comprehensive academic programs designed to prepare you for success in the digital age.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="bg-white py-12 md:py-24 lg:py-32">
+            <div class="container mx-auto px-4 md:px-6">
+                <h2 class="text-3xl font-bold tracking-tighter text-center text-slate-800 mb-6">Academic Tracks</h2>
+                <div class="grid gap-4 sm:grid-cols-3">
+                    <div class="bg-white p-4 rounded shadow">
+                        <h3 class="text-2xl font-bold mb-2">STEM</h3>
+                        <ul class="list-none mb-4">
+                            <li class="flex items-center mb-2">
+                                <svg class="w-4 h-4 mr-2 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                                <span class="text-slate-600">Science</span>
+                            </li>
+                            <li class="flex items-center mb-2">
+                                <svg class="w-4 h-4 mr-2 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                                <span class="text-slate-600">Technology</span>
+                            </li>
+                            <li class="flex items-center mb-2">
+                                <svg class="w-4 h-4 mr-2 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                                <span class="text-slate-600">Engineering</span>
+                            </li>
+                            <li class="flex items-center mb-2">
+                                <svg class="w-4 h-4 mr-2 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                                <span class="text-slate-600">Mathematics</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-4 rounded shadow">
+                        <h3 class="text-2xl font-bold mb-2">ABM</h3>
+                        <ul class="list-none mb-4">
+                            <li class="flex items-center mb-2">
+                                <svg class="w-4 h-4 mr-2 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                                <span class="text-slate-600">Accountancy</span>
+                            </li>
+                            <li class="flex items-center mb-2">
+                                <svg class="w-4 h-4 mr-2 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                                <span class="text-slate-600">Business</span>
+                            </li>
+                            <li class="flex items-center mb-2">
+                                <svg class="w-4 h-4 mr-2 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                                <span class="text-slate-600">Management</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-4 rounded shadow">
+                        <h3 class="text-2xl font-bold mb-2">HUMSS</h3>
+                        <ul class="list-none mb-4">
+                            <li class="flex items-center mb-2">
+                                <svg class="w-4 h-4 mr-2 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                                <span class="text-slate-600">Humanities</span>
+                            </li>
+                            <li class="flex items-center mb-2">
+                                <svg class="w-4 h-4 mr-2 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                                <span class="text-slate-600">Social Sciences</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical-Vocational Tracks Section -->
+        <section class="bg-gray-50 py-12 md:py-24">
+            <div class="container mx-auto px-4 md:px-6">
+                <h2 class="text-3xl font-bold tracking-tighter text-center text-slate-800 mb-6">Technical-Vocational Tracks</h2>
+                <div class="max-w-4xl mx-auto">
+                    <!-- Tab Navigation -->
+                    <div class="flex border-b border-gray-200 mb-8">
+                        <button id="homeEcTab" 
+                                class="px-6 py-3 text-lg font-semibold border-b-2 border-blue-600 text-blue-600 tab-button active"
+                                data-tab="homeEc">
+                            Home Economics
+                        </button>
+                        <button id="ictTab" 
+                                class="px-6 py-3 text-lg font-semibold border-b-2 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 tab-button"
+                                data-tab="ict">
+                            ICT
+                        </button>
+                    </div>
+
+                    <!-- Tab Content -->
+                    <div class="tab-content">
+                        <!-- Home Economics Content -->
+                        <div id="homeEc" class="tab-pane active">
+                            <div class="bg-white p-8 rounded-lg shadow-md">
+                                <h3 class="text-2xl font-bold mb-4">Home Economics</h3>
+                                <p class="text-slate-600 mb-6">Focus on hospitality, tourism, and culinary arts</p>
+                                <div class="space-y-6">
+                                    <div>
+                                        <h4 class="text-xl font-semibold mb-3 text-blue-800">Specializations</h4>
+                                        <ul class="list-none space-y-3">
+                                            <li class="flex items-center">
+                                                <svg class="w-5 h-5 mr-3 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                                </svg>
+                                                <span class="text-slate-600">Tourism Operations</span>
+                                            </li>
+                                            <li class="flex items-center">
+                                                <svg class="w-5 h-5 mr-3 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                                </svg>
+                                                <span class="text-slate-600">Food & Beverage Services</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ICT Content -->
+                        <div id="ict" class="tab-pane hidden">
+                            <div class="bg-white p-8 rounded-lg shadow-md">
+                                <h3 class="text-2xl font-bold mb-4">Information & Communications Technology</h3>
+                                <p class="text-slate-600 mb-6">Focus on computer technology and programming</p>
+                                <div class="space-y-6">
+                                    <div>
+                                        <h4 class="text-xl font-semibold mb-3 text-blue-800">Specializations</h4>
+                                        <ul class="list-none space-y-3">
+                                            <li class="flex items-center">
+                                                <svg class="w-5 h-5 mr-3 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                                </svg>
+                                                <span class="text-slate-600">Computer Programming</span>
+                                            </li>
+                                            <li class="flex items-center">
+                                                <svg class="w-5 h-5 mr-3 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                                </svg>
+                                                <span class="text-slate-600">Animation & Digital Arts</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script is:inline>
+            document.addEventListener('DOMContentLoaded', () => {
+                const tabButtons = document.querySelectorAll('.tab-button');
+                
+                tabButtons.forEach(button => {
+                    button.addEventListener('click', () => {
+                        const tabId = button.dataset.tab;
+                        
+                        // Hide all tab panes
+                        document.querySelectorAll('.tab-pane').forEach(pane => {
+                            pane.classList.add('hidden');
+                        });
+                        
+                        // Show the selected tab pane
+                        const selectedPane = document.getElementById(tabId);
+                        if (selectedPane) {
+                            selectedPane.classList.remove('hidden');
+                        }
+                        
+                        // Update tab button styles
+                        tabButtons.forEach(btn => {
+                            btn.classList.remove('border-blue-600', 'text-blue-600');
+                            btn.classList.add('border-transparent', 'text-gray-500');
+                        });
+                        
+                        // Style the active tab button
+                        button.classList.remove('border-transparent', 'text-gray-500');
+                        button.classList.add('border-blue-600', 'text-blue-600');
+                    });
+                });
+            });
+        </script>
+
+        <!-- Programs Section -->
+        <section class="w-full py-12 md:py-24 bg-white">
+            <div class="container mx-auto px-4 md:px-6">
+                <h2 class="text-2xl font-bold tracking-tighter sm:text-4xl text-center mb-12">Our Programs</h2>
+                <div class="grid gap-8 md:grid-cols-2">
+                    <!-- BSIT Program -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden border border-gray-100">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-4 text-blue-600">Bachelor of Science in Information Technology</h3>
+                            <p class="text-slate-600 mb-4">A comprehensive program that prepares students for careers in:</p>
+                            <ul class="space-y-2 text-slate-600 mb-6">
+                                <li class="flex items-center">
+                                    <svg class="w-4 h-4 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                    Software Development
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="w-4 h-4 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                    Network Administration
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="w-4 h-4 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                    Web Technologies
+                                </li>
+                            </ul>
+                            <a href="#" class="inline-flex items-center justify-center rounded-md text-sm font-medium bg-blue-600 text-white hover:bg-blue-700 h-10 px-8 py-2 transition-all hover:scale-105">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- BSBA Program -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden border border-gray-100">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-4 text-blue-600">Bachelor of Science in Business Administration</h3>
+                            <p class="text-slate-600 mb-4">Specializing in Financial Management with focus on:</p>
+                            <ul class="space-y-2 text-slate-600 mb-6">
+                                <li class="flex items-center">
+                                    <svg class="w-4 h-4 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                    Financial Analysis
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="w-4 h-4 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                    Investment Management
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="w-4 h-4 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                    Business Strategy
+                                </li>
+                            </ul>
+                            <a href="#" class="inline-flex items-center justify-center rounded-md text-sm font-medium bg-blue-600 text-white hover:bg-blue-700 h-10 px-8 py-2 transition-all hover:scale-105">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Academic Features -->
+        <section class="w-full py-12 md:py-24 bg-gradient-to-br from-white via-blue-50 to-blue-300">
+            <div class="container mx-auto px-4 md:px-6">
+                <h2 class="text-2xl font-bold tracking-tighter sm:text-4xl text-center mb-12">Why Choose DCCP</h2>
+                <div class="grid gap-8 md:grid-cols-3">
+                    <div class="flex flex-col items-center text-center p-6">
+                        <svg class="w-12 h-12 text-blue-600 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z"/>
+                        </svg>
+                        <h3 class="text-xl font-bold mb-2">Expert Faculty</h3>
+                        <p class="text-slate-600">Learn from industry professionals and experienced educators.</p>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-6">
+                        <svg class="w-12 h-12 text-blue-600 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                        </svg>
+                        <h3 class="text-xl font-bold mb-2">Modern Facilities</h3>
+                        <p class="text-slate-600">Access state-of-the-art laboratories and learning resources.</p>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-6">
+                        <svg class="w-12 h-12 text-blue-600 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                        <h3 class="text-xl font-bold mb-2">Industry Partnerships</h3>
+                        <p class="text-slate-600">Benefit from our strong connections with industry leaders.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <Footer />
+</Layout>
